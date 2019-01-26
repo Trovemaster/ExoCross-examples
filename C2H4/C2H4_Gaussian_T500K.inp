@@ -1,0 +1,23 @@
+mem 190.0 gb
+Ncache 100000000
+NPROCS 36
+
+Temperature  500 (K)
+
+Range 0 7000
+Npoints 70001
+
+
+pffile "/scratch/dp114/shared/ExoMol/C2H4/12C2-1H4__MaYTY.pf"
+
+absorption
+gaussian
+hwhm 0.1
+
+output C2H4_Gaussian_T1200K
+
+States "/scratch/dp114/shared/ExoMol/C2H4/12C2-1H4__MaYTY.states"
+
+Transitions 
+"/scratch/dp114/shared/ExoMol/C2H4/12C2-1H4__MaYTY__03000-03100.trans"
+end

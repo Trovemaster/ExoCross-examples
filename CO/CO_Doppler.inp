@@ -1,0 +1,14 @@
+temperature 2000.0 (K)
+Range 0 20000 (cm-1)
+
+absorption
+Doppler
+mass 28 (16+12 in Dalton)
+
+States 12C-16O__Li2015.states
+Transitions  12C-16O__Li2015.trans
+
+output CO_Doppler_2000K   (any name)
+
+
+

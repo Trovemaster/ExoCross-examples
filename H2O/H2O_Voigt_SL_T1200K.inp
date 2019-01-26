@@ -1,0 +1,30 @@
+Temperature  1200
+pressure  1.0 (atm)
+
+Range 0 41000
+Npoints 41001
+
+super-lines 
+
+absorption
+Voigt
+
+species 
+     H2 file 1H2-16O__H2.broad  ratio 0.85
+     he file 1H2-16O__He.broad  ratio 0.15
+end
+
+
+output H2O_Voigt_SL_T1200K
+
+Ncache 100000000
+
+NPROCS 18
+
+
+States "/scratch/dp114/shared/ExoMol/H2O/1H2-16O__POKAZATEL.states"
+
+Transitions 
+  "/scratch/dp114/shared/ExoMol/H2O/1H2-16O__POKAZATEL__0-41200__1200K.super"
+end
+

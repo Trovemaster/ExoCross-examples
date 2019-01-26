@@ -1,0 +1,32 @@
+mem 190.0 gb
+
+Temperature  300
+Range 1 1000.0 
+
+R 1000000
+
+absorption
+bin
+
+output SO2_T_300_bin_R1M
+
+NRAM 1000000
+
+NPROCS 4
+
+
+States "/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes.states"
+
+Transitions  
+"/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes__00000-00100.trans"
+"/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes__00100-00200.trans"
+"/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes__00200-00300.trans"
+"/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes__00300-00400.trans"
+"/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes__00400-00500.trans"
+"/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes__00500-00600.trans"
+"/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes__00600-00700.trans"
+"/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes__00700-00800.trans"
+"/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes__00800-00900.trans"
+"/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes__00900-01000.trans"
+end
+

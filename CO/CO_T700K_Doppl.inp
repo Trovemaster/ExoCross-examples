@@ -1,0 +1,25 @@
+
+mem 190.0 gb
+
+Temperature  700
+Range 0 35000.0 
+
+Npoints 3500001
+
+absorption
+doppler 
+
+mass 64
+
+output 12C-16O__Li2015__0-22000__700K__0bar__0.01
+
+NRAM 100000000
+
+NPROCS 32
+
+verbose 4
+
+States 12C-16O__Li2015.states
+
+Transitions  12C-16O__Li2015.trans
+

@@ -1,0 +1,24 @@
+Temperature 2000.0 (K)
+pressure  2.0  (atm)
+
+Range 0.   20000.0 (cm-1)
+
+Npoints 200001   (resolution)
+
+emission    (type)
+
+hwhm 0.1 (half-width at half-maximum cm-1)
+
+mass 43
+
+Voigt   (line profile)
+(broadener)
+species
+ H2 gamma 0.04  n 0.4  t0 298.0 ratio 0.82
+ He gamma 0.1   n 0.8 t0 298.0 ratio 0.18
+end
+
+output AlO_Voigt_2000K
+
+States       27Al-16O__ATP.states
+Transitions  27Al-16O__ATP.trans

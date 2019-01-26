@@ -1,0 +1,23 @@
+mem 190.0 gb
+
+Temperature  300
+Range 0 8000.0
+
+Npoints  80001
+
+super-lines 
+
+absorption
+gaussian 
+hwhm 0.1
+
+output SO2_T_300_gauss_0.1
+
+NRAM 1000000
+
+Ncashe 4
+
+
+States "/scratch/dp114/shared/ExoMol/SO2/32S-16O2__ExoAmes.states"
+
+Transitions "/scratch/dp114/shared/ExoMol/SO2/SO2_T_300_bin_R1M.xsec"

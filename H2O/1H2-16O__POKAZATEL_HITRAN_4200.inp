@@ -1,0 +1,50 @@
+
+mem 190.0 gb
+
+Temperature  296
+Range 4200 4400
+
+absorption
+stick
+
+
+pffile  1H2-16O__POKAZATEL.pf
+
+HITRAN write
+
+mass 18
+
+threshold 1e-40
+
+hitran write
+   error-E  qn 4 ierr 2   vmax  100 
+   error-S  qn 4 ierr 5   vmax  100 
+   error-Air   ierr 0
+   error-self  ierr 0
+   error-n     ierr 0
+   error-delta ierr 0
+end
+
+absorption
+
+iso 11
+
+abundance 0.99734
+
+pressure  1.0
+species 
+     air   gamma 0.075  n 0.40 t0 296.0 file 1H2-16O__air_a0.broad  ratio 1.00 delta 0.000000
+     self  gamma 0.670  n 1.00 t0 296.0 file 1H2-16O__self_a0.broad ratio 1.00 delta 0.000000
+end
+
+
+output 1H2-16O__POKAZATEL_4200
+
+NRAM 100000000
+
+NPROCS 16
+
+
+States 1H2-16O__POKAZATEL.states
+
+Transitions 1H2-16O__POKAZATEL__04200-04300.trans

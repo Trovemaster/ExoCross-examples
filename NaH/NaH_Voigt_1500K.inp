@@ -1,0 +1,20 @@
+Range 0.0  25000.0
+Npoints 25001
+
+Emission
+pressure  1.0
+Temperature 1500.0
+mass 23
+
+Voigt
+
+species
+ H2  gamma 0.0155 n 0.41 t0 298.0 ratio 0.82
+ He  gamma 0.1070 n 0.77 t0 298.0 ratio 0.18
+end
+
+
+Output NaH_Voigt_emission_1500K_P1
+
+States 23Na-1H__Rivlin.states
+Transitions 23Na-1H__Rivlin.trans
